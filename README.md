@@ -1,28 +1,34 @@
-# Skills Copilot Codespaces Project
+# Code with GitHub Copilot
 
-Welcome to the Skills Copilot Codespaces Project! This project is designed to help you get familiar with GitHub Copilot, GitHub Codespaces, and enhance your coding skills with practical JavaScript exercises.
+_GitHub Copilot can help you code by offering autocomplete-style suggestions right in VS Code and Codespaces._
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+Welcome to the "Code with GitHub Copilot" course! This course will guide you through using GitHub Copilot in your coding projects, enhancing your productivity and coding efficiency.
 
-1. **Set Up Your Codespace**: Create a new codespace on the `main` branch of this repository to get a fully configured development environment in your browser.
+### Prerequisites
 
-2. **Explore the Copilot Extension**: Once your codespace is ready, explore the GitHub Copilot extension pre-installed in your VS Code environment. It's your AI pair programmer that helps you write code faster and with less effort.
+Before you begin, make sure you have:
 
-3. **JavaScript Exercises**: Navigate to the `.github/steps/` directory to find step-by-step guides that will walk you through various JavaScript exercises. These exercises are designed to improve your coding skills with the help of GitHub Copilot.
+- A GitHub account.
+- Visual Studio Code installed.
+- GitHub Copilot extension installed in VS Code.
 
-4. **Commit Your Changes**: As you complete each exercise, remember to commit your changes to the repository. This will help you track your progress and share your solutions with others.
+### Course Structure
 
-5. **Feedback and Contribution**: We love to hear from our users! Feel free to open an issue or pull request if you have suggestions or contributions to make this project even better.
+1. **Leverage Codespaces with VS Code for Copilot**: Learn how to set up your environment to use GitHub Copilot within Codespaces.
+2. **Seeing AI Code Suggestions in a JavaScript File**: Experience firsthand how GitHub Copilot provides real-time coding suggestions.
+3. **View the GitHub Copilot Tab with Multiple Suggestions**: Discover how to navigate and utilize multiple suggestions from GitHub Copilot.
+4. **Generate Copilot Suggested Code from Comments**: Explore how to use natural language comments to generate code snippets with Copilot.
 
-## License
+### Step 2: Seeing AI Code Suggestions in a JavaScript File
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Create a new file named `skills.js` in your Codespace.
+2. Start typing the function header `function calculateNumbers(var1, var2)`. GitHub Copilot will suggest an entire function body.
+3. Press `Tab` to accept the suggestion.
 
-## Acknowledgments
+### Push Your Code
 
-- GitHub Copilot for making coding more accessible and fun.
-- The GitHub and open-source community for continuous support and inspiration.
-
-Thank you for participating in the Skills Copilot Codespaces Project. Happy coding!
+1. Stage your changes:
+   ```sh
+   git add skills.js
